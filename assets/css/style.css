@@ -17,4 +17,24 @@ body{
         
     }
 
+/* 
+Animation 
+*/
+
+@keyframes mymove {
+ from {background-color: teal;}
+ to {background-color: black;}
+
+ from {color: black;}
+ to{color: teal;}
+
+}
+
+#myDiv
+{
+ -webkit-animation: mymove 5s infinite;
+ animation: mymove 5s infinite;
+ 	
+}
+
    
